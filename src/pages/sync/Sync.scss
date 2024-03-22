@@ -1,0 +1,45 @@
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+* {
+  box-sizing: content-box;
+}
+
+.App {
+  padding: 10px;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+form {
+  small {
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 1.25em;
+    margin: 0;
+    color: #666;
+    font-family: sans-serif;
+    display: block;
+  }
+}
+
+.Results-section  {
+  table {
+    margin-top: 20px;
+    width: 100%;
+    th {
+      text-align: left;
+    }
+  }
+  img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
